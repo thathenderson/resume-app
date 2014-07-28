@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html ng-app="ResumeApp">
+<head>
+	<title>Resume for Michael Henderson</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="css/main.css" />
+	<script src="js/framework/jquery.min.js"></script>
+	<script src="js/framework/angular.min.js"></script>
+	<script src="js/framework/angular-route.min.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/controllers/controllers.js"></script>
+</head>
+<body>
+	<header ng-controller="MeController">
+		<section class="info cf">
+		<div class="profile left">
+			<img ng-src="{{me.profile}}" />
+		</div>
+		<div class="description left">
+			<div class="icomoon menu-button" ng-click="showMenu()"></div>
+			<h1>{{me.fullname}}</h1>
+			<h3>{{me.description}}</h3>
+		</div>
+		</section>
+		<section class="nav">
+			<nav>
+				<ul class="nav-options">
+					<li ng-class="{active: isActive('/experience')}"><a class="nav-option" href="#/experience">Experience</a>
+					<li ng-class="{active: isActive('/accomplishments')}"><a class="nav-option" href="#/accomplishments">Accomplishments</a>
+					<li ng-class="{active: isActive('/skills')}"><a class="nav-option" href="#/skills">Skills</a>
+					<li ng-class="{active: isActive('/education')}"><a class="nav-option" href="#/education">Education</a>
+				</ul>
+			</nav>
+		</section>
+	</header>
+	<main ng-view></main>
+</body>
+</html>

@@ -1,0 +1,85 @@
+{
+	"me": {
+		"fullname": "Michael Henderson",
+		"description": "Front-end web developer with full-stack experience and a focus on critical thinking, problem solving, and practicality. Based in Orlando, FL. Let's get stuff done together!",
+		"email": "michael@thathenderson.com",
+		"profile": "images/Profile.jpg"
+	},
+	"jobs": [
+		{
+			"company": "Google / Channel Intelligence",
+			"positions": [
+				{
+					"title": "Lead Implementations Tech",
+					"employmentLength": "April 2010 - Present",
+					"bullets": [
+						"Sole front-end developer for the Where-to-Buy product line, responsible for managing, implementing, and supporting all templates, design, and customizations for 100+ global manufacturer brand implementations a year, ensuring that implementations are clean, fast, and delivered quickly",
+						"Leading all technical recommendations and discussions with new and existing clients on the CI platform, ensuring client design and technical satisfaction",
+						"Scoping and developing custom client front-end implementations, including custom javascript APIs to the CI platform, and custom front-end solutions to accomodate design requirements",
+						"Implementing and contributing to the javascript-based Channel Intelligence analytics package, TrueTag, for retailers and manufacturers"
+					]
+				},
+				{
+					"title": "Client Support Specialist",
+					"employmentLength": "March 2008 - April 2010",
+					"bullets": [
+						"Implemented and managed clients for the SellPath eCommerce microsite product line",
+						"Integrated e-commerce functionality on microsites, which included parsing, troubleshooting and hosting HTML and javascript",
+						"Managed the global Where-to-Buy support queue for 50+ clients",
+						"Created and supported retailer feeds for the SellCast retailer product line"
+					]
+				}
+			]
+		},
+		{
+			"company": "ProVision IT, LLC",
+			"positions": [
+				{
+					"title": "Web Developer / Support Tech",
+					"employmentLength": "May 2007 - March 2008",
+					"bullets": [
+						"Led all web development projects which included management, development, rollout, maintenance, and debugging. Technologies used: PHP, MySQL, ASP, HTML, CSS2, Javascript, and SQL",
+						"Designed and created splash pages, templates, and mockups for potential site development clients",
+						"PC and network troubleshooting, small network setup and maintenance, hardware installation and maintenance, Windows SBS Server setup and maintenance, and remote support"
+					]
+				}
+			]
+		},
+		{
+			"company": "PreVisor, Inc / CraftSystems",
+			"positions": [
+				{
+					"title": "Systems Development Intern",
+					"employmentLength": "May 2006 - May 2007",
+					"bullets": [
+						"Server-side application development and debugging in Classic ASP, and front-end application development",
+						"Installed, debugged and provided troubleshooting for office hardware and software"
+					]
+				}
+			]
+		}
+	],
+	"accomplishments": [
+		{
+			"position": "Lead Implementations Tech",
+			"majorBullets": [
+				"Hand-crafted a front-end template for every Where-to-Buy service. These template vastly improved on the default front-end by consolidating core css, removing unnecessary markup and external scripts, and reducing render time by 66%. The templates are responsive and built off of modern CSS design principles. This was the first time responsive design was introduced to any product line and is now a major selling point during pitches to new clients."
+			],
+			"minorBullets": []
+		},
+		{
+			"position": "Support Specialist",
+			"majorBullets": [],
+			"minorBullets": []
+		}
+	],
+	"skills": [
+		"Expert in Javascript, HTML5, CSS3, and SASS.",
+		"Experienced in jQuery, AngularJS, Ember, and AJAX/XHR implementations",
+		"Full stack experience in PHP/mySQL, Python, XSL/XML (learning NodeJS)",
+		"Familiarity with Closure, Dart, Classic ASP/SQL",
+		"Version control experience in Subversion and Git"
+	],
+	"education": [
+	]
+}

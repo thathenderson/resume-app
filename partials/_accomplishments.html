@@ -1,0 +1,8 @@
+<section class="accomplishments" ng-repeat="thing in accomplishments">
+	<h3 class="company-name">{{thing.position}}</h3>
+	<section>
+		<ul>
+			<li class="bullet" ng-repeat="bullet in thing.majorBullets">{{bullet}}</li>
+		</ul>
+	</section>
+</section>

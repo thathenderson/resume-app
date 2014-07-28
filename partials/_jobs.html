@@ -1,0 +1,9 @@
+<section class="job" ng-repeat="job in jobs">
+	<h2 class="company-name">{{job.company}}</h2>
+	<section class="position" ng-repeat="position in job.positions">
+		<h3 class="position-title bold">{{position.title}} <span class="light">({{position.employmentLength}})</span></h4>
+		<ul>
+			<li class="bullet" ng-repeat="bullet in position.bullets">{{bullet}}</li>
+		</ul>
+	</section>
+</section>

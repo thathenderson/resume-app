@@ -1,0 +1,835 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"list-style",
+				"list-style-type"
+			],
+			[
+				"Vend",
+				"VendorBrand"
+			],
+			[
+				"Ven",
+				"VendorId"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1734,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "@-webkit-keyframes fadein\n	from\n		opacity: 0\n	to\n		opacity: 1\n\n@keyframes fadein\n	from\n		opacity: 0\n	to\n		opacity: 1\n\n*, *::before, *::after\n	box-sizing: border-box\n	-webkit-box-sizing: border-box\n	-moz-box-sizing: border-box\n\nbody\n	font-family: 'Lato', sans-serif\n	font-size: 100%\n	font-weight: 400\n	color: $color-standard-text\n	padding: 0\n	margin: 0\n\nheader, main, nav, section, div\n	display: block\n	padding: 0\n	margin: 0\n\nheader, main\n	-webkit-animation: fadein 800ms\n	-webkit-animation-fill-mode: forwards\n	animation: fadein 800ms\n	animation-fill-mode: forwards\n\nheader\n	width: 100%\n	height: $header-height\n	opacity: 0\n	position: fixed\n	z-index: 5\n	overflow: hidden\n	box-shadow: 0 1px 5px rgba(0,0,0,0.5)\n\n	background-color: $color-theme-dark\n	//border-bottom: 3px $color-theme-dark solid\n\n	.profile, .description\n		height: 125px\n\n	.profile\n		width: 125px\n		margin-right: 10px\n\n		img\n			width: 100%\n			height: 100%\n			border: 5px $color-theme solid\n			border-radius: 50% 50% 0 50%\n\n	.description\n		width: 80%\n		padding-top: 32px\n		color: $color-theme-text\n\n		h1\n			margin: 0\n			font-weight: 700\n			font-size: 2.5em\n			color: inherit\n		h3\n			margin: 0\n			color: inherit\n\n.menu-button\n	display: inline-block\n	padding: 5px\n	margin-left: -5px\n	font-size: 2.5em\n	text-align: center\n	color: $color-theme-text\n	border-radius: 8px\n\n.menu-button:hover\n	cursor: pointer\n\n.menu-button:active\n	background-color: $color-theme-light\n\n.menu-button::before\n	content: \"\\e601\"\n\n.menu\n	position: absolute\n	left: 0\n	top: 0\n	width: 80px\n	height: 100%\n	margin-left: -80px\n	\n\n	li\n		display: block\n		list-style-type: none\n		margin: 0\n		padding: 5px 10px\n\n.info\n	padding: 10px\n\n.nav\n	clear: both\n\nnav\n	text-align: center\n	position: relative\n	top: 8px\n	background-color: $color-theme\n\n	li\n		list-style-type: none\n		display: inline-block\n		margin: 0px\n		padding: 10px\n\n	li:hover, .active\n		background-color: $color-theme-dark\n\n	.nav-options\n		margin: 0px\n		padding: 0px\n		vertical-align: middle\n		list-style-type: none\n		-webkit-margin-before: 0\n		-webkit-margin-after: 0\n\n		.nav-option\n			color: $color-nav-text\n			font-weight: bold\n			font-size: 1.5em\n			text-decoration: none\nmain\n	+main-padding\n\n	.company-name\n		margin: 0\n\n	.position-title\n		margin: 5px 0\n\n	.bullet\n		font-size: 0.9em\n\n.job\n	margin-bottom: 20px\n	\nh1\n	margin-top: 0\n	margin-bottom: 5px\n	font-size: 2em\nh2\n	margin: 0\n	font-size: 1.5em\n	color: $color-standard-text-dark\nh3\n	font-weight: 400\n	font-size: 1.2em\n	margin: 0 0 5px 0\nh4\n	margin: 0\n	font-size: 1.2em\n	font-weight: 400\n	font-size: 1.2em\n	color: $color-standard-text-light\n\n.left\n	float: left\n\n.right\n	float: right\n\n.light\n	font-weight: 300\n\n.cf\n	zoom: 1\n\n	&:before\n		content: \" \"\n		display: table\n\n	&:after\n		content: \" \"\n		display: table\n		clear: both",
+			"file": "sass/partials/styles.sass",
+			"file_size": 2755,
+			"file_write_time": 130509937660000000,
+			"settings":
+			{
+				"buffer_size": 2757,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/partials/fonts.sass",
+			"settings":
+			{
+				"buffer_size": 1392,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/resume.json",
+			"settings":
+			{
+				"buffer_size": 3937,
+				"line_ending": "Unix",
+				"name": "{"
+			}
+		},
+		{
+			"file": "js/app.js",
+			"settings":
+			{
+				"buffer_size": 886,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "partials/_skills.html",
+			"settings":
+			{
+				"buffer_size": 106,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/partials/media-queries.sass",
+			"settings":
+			{
+				"buffer_size": 469,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/controllers/controllers.js",
+			"settings":
+			{
+				"buffer_size": 1064,
+				"line_ending": "Unix",
+				"name": "var ResumeController = angular.module('ResumeContr"
+			}
+		},
+		{
+			"file": "partials/_accomplishments.html",
+			"settings":
+			{
+				"buffer_size": 216,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"command_palette":
+	{
+		"height": 347.0,
+		"selected_items":
+		[
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: html"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/thathenderson/Downloads/icomoon/style.css",
+		"/Users/thathenderson/Downloads/icomoon (1)/style.css",
+		"/Users/thathenderson/Documents/resume/sass/partials/fonts.sass",
+		"/Users/thathenderson/Documents/resume/sass/partials/styles.sass",
+		"/Users/thathenderson/Documents/resume/sass/partials/colors.sass",
+		"/Users/thathenderson/Documents/resume/sass/partials/media-queries.sass",
+		"/Users/thathenderson/Documents/resume/sass/partials/layouts.sass",
+		"/Users/thathenderson/Documents/resume/partials/_jobs.html",
+		"/Users/thathenderson/Documents/resume/sass/main.sass",
+		"/Users/thathenderson/Documents/resume/partials/_accomplishments.html",
+		"/Users/thathenderson/Documents/resume/partials/_technologies.html",
+		"/Users/thathenderson/Documents/resume/partials/_education.html",
+		"/Volumes/iFrameUI/index_ca_en.asp",
+		"/Users/thathenderson/Desktop/localization_ca.js",
+		"/Users/thathenderson/Desktop/localization_ca_fr.js",
+		"/Users/thathenderson/Desktop/main_old.js",
+		"/Volumes/js/main.js",
+		"/Users/thathenderson/Desktop/main.js",
+		"/Volumes/js/localization_ca.js",
+		"/Volumes/9939267/iFrameUI/index_ca_en.asp",
+		"/Volumes/9939267/iFrameUI/js/main.js",
+		"/Volumes/9939267/iFrameUI/templates/shopLocal_ca_en.html",
+		"/Volumes/9939267/iFrameUI/dale.xml",
+		"/Volumes/9939267/iFrameUI/templates/shopOnline.html",
+		"/Volumes/347215494/2614/settings.xml",
+		"/Users/thathenderson/svn/oemsites/7240425/1992/settings.xml",
+		"/Users/thathenderson/svn/oemsites/347215494/2614/settings.xml",
+		"/Volumes/1992/settings.xml",
+		"/Users/thathenderson/svn/oemsites/Setup_Files/PL/settings.xml",
+		"/Users/thathenderson/svn/oemsites/wtb/css/mobile-pl.css",
+		"/Users/thathenderson/Downloads/SP_841291.tsv.txt",
+		"/Users/thathenderson/svn/oemsites/Setup_Files/PL/modern-pl.css",
+		"/Users/thathenderson/Documents/resume/css/main.css",
+		"/Users/thathenderson/Documents/groceries/css/main.css",
+		"/Users/thathenderson/Documents/groceries/sass/partials/_styles.sass",
+		"/Users/thathenderson/Documents/groceries/sass/partials/_resets.sass",
+		"/Users/thathenderson/Documents/groceries/sass/main.sass",
+		"/Users/thathenderson/Documents/thathenderson.com/resume/display.js",
+		"/Users/thathenderson/Downloads/Ex_Files_UaR_AngularJS/Exercise Files/03_06/finished/angular/index.html",
+		"/Users/thathenderson/Downloads/Ex_Files_UaR_AngularJS/Exercise Files/03_06/finished/angular/js/app.js",
+		"/Users/thathenderson/Downloads/Ex_Files_UaR_AngularJS/Exercise Files/03_06/finished/angular/js/controllers.js",
+		"/Users/thathenderson/Documents/resume/js/app/app.js",
+		"/Users/thathenderson/Downloads/Ex_Files_UaR_AngularJS/Exercise Files/02_04/finished/angular/index.html",
+		"/Users/thathenderson/svn/oemsites/wtb/xslt/pl-xml.xslt",
+		"/Users/thathenderson/Downloads/Ex_Files_UaR_AngularJS/Exercise Files/02_04/finished/angular/js/data.json",
+		"/Users/thathenderson/Downloads/Ex_Files_UaR_AngularJS/Exercise Files/02_04/finished/angular/js/controllers.js",
+		"/Users/thathenderson/Documents/resume/angular.min.js",
+		"/Users/thathenderson/Downloads/angular.min.js",
+		"/Users/thathenderson/Documents/resume/index.html",
+		"/Users/thathenderson/Documents/resume/resume.sublime-project",
+		"/Users/thathenderson/svn/oemsites/6688506/2799/XMLSettings.xml",
+		"/Users/thathenderson/Documents/groceries/sass/partials/_fonts.sass",
+		"/Users/thathenderson/Documents/groceries/sass/partials/_typography.sass",
+		"/Volumes/gs/store.asp",
+		"/Users/thathenderson/Desktop/hostedtest.html",
+		"/Users/thathenderson/svn/oemsites/229241616/2732/ppsettings.xml",
+		"/Users/thathenderson/svn/oemsites/229241616/2732/dlcsettings.xml",
+		"/Users/thathenderson/Desktop/Sergeants/sergeantsCarriage_final.txt",
+		"/Users/thathenderson/Documents/groceries/sass/config/_base.sass",
+		"/Users/thathenderson/Downloads/icomoon/selection.json",
+		"/Users/thathenderson/Desktop/Python test files/carriagecombiner.py",
+		"/Users/thathenderson/Desktop/Sergeants Carriage/combine.py",
+		"/Users/thathenderson/Documents/groceries/main/css",
+		"/Users/thathenderson/svn/oemsites/Setup_Files/PL/0.xml",
+		"/Users/thathenderson/svn/oemsites/8679138/1142/settings.xml",
+		"/Users/thathenderson/svn/oemsites/8679138/1142/header.asp",
+		"/Users/thathenderson/svn/oemsites/settings.xml",
+		"/Users/thathenderson/svn/oemsites/8679138/1142/InterstitialPage.asp",
+		"/Users/thathenderson/Desktop/Python test files/combine.py",
+		"/Users/thathenderson/Desktop/Python test files/delimited 2.py",
+		"/Users/thathenderson/Desktop/Sergeants Carriage/DollarGeneral.csv",
+		"/Users/thathenderson/Desktop/Sergeants Carriage/Cvs.csv",
+		"/Users/thathenderson/Desktop/Python test files/URLSigner.py",
+		"/Users/thathenderson/Desktop/Python test files/carriagefile.txt",
+		"/Users/thathenderson/Downloads/starter-kit-1.5.1/index.html",
+		"/Users/thathenderson/Downloads/starter-kit-1.5.1/js/app.js",
+		"/Users/thathenderson/Downloads/starter-kit-1.5.1/tests/runner.js",
+		"/Users/thathenderson/Downloads/starter-kit-1.5.1/js/libs/handlebars-1.1.2.js",
+		"/Users/thathenderson/Downloads/starter-kit-1.5.1/js/libs/ember-1.5.1.js",
+		"/Users/thathenderson/Documents/groceries/index.html",
+		"/Users/thathenderson/Documents/groceries/sass/partials/_layout.sass",
+		"/Users/thathenderson/Documents/groceries/sass/modules/_base.sass",
+		"/Users/thathenderson/Documents/groceries/sass/modules/_base.scss",
+		"/Users/thathenderson/Documents/groceries/sass/main.scss",
+		"/Users/thathenderson/Documents/groceries/css/modules/_base.scss",
+		"/Users/thathenderson/Documents/groceries/css/main.scss",
+		"/Users/thathenderson/Documents/groceries/css/partials/fonts.scss",
+		"/Users/thathenderson/Documents/groceries/css/partials/resets.scss",
+		"/Users/thathenderson/Documents/groceries/css/_base.scss",
+		"/Users/thathenderson/Documents/groceries/css/resets.scss",
+		"/Users/thathenderson/Documents/groceries/css/main.scss.css",
+		"/Users/thathenderson/Library/Application Support/Sublime Text 3/Packages/User/htmlSnippet.sublime-snippet",
+		"/Users/thathenderson/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/thathenderson/Library/Application Support/Sublime Text 3/Packages/User/htmlSnippet",
+		"/Applications/Sublime Text.app/Contents/MacOS/Packages/HTML.sublime-package",
+		"/Volumes/gs/style.css",
+		"/Volumes/gs/work.js",
+		"/Users/thathenderson/Budget-app/budget.js",
+		"/Users/thathenderson/Google Drive/scripts (1)/maps.js",
+		"/Users/thathenderson/Desktop/scripts/maps.js",
+		"/Users/thathenderson/Desktop/FileZilla.xml",
+		"/Users/thathenderson/Documents/thathenderson.com/new/index.html",
+		"/Users/thathenderson/Documents/thathenderson.com/new/fonts.css",
+		"/Users/thathenderson/Documents/thathenderson.com/new/reset.css",
+		"/Users/thathenderson/Documents/thathenderson.com/new/main.css",
+		"/Users/thathenderson/Documents/thathenderson.com/index.html",
+		"/Users/thathenderson/svn/oemsites/Setup_Files/PL/header.asp",
+		"/Users/thathenderson/Documents/thathenderson.com/resume/index.html",
+		"/Users/thathenderson/Documents/thathenderson.com/resume/css/main.css",
+		"/Users/thathenderson/Downloads/Bebitus_-_ES_IB_Main_20140425123644979_20140425123645228",
+		"/Users/thathenderson/Downloads/Bebitus_-_ES_IB_Sup_20140425124333956_20140425124334034",
+		"/Users/thathenderson/Downloads/Bebitus_-_ES_232588563-inbound-Bebitus_-_ES_IB_Sup_20140424124938310_20140424124938388",
+		"/Users/thathenderson/svn/oemsites/Setup_Files/snippets.htm",
+		"/Users/thathenderson/svn/oemsites/19483251/ws/GetImage.asp",
+		"/Users/thathenderson/svn/oemsites/sl_map.asp",
+		"/Users/thathenderson/Documents/thathenderson.com/css/fonts.css",
+		"/Users/thathenderson/Documents/thathenderson.com/resume/css/fonts.css",
+		"/Users/thathenderson/Documents/thathenderson.com/css/main.css",
+		"/Users/thathenderson/Documents/thathenderson.com/thathenderson.sublime-project",
+		"/Users/thathenderson/Desktop/vbscripttester.html",
+		"/Users/thathenderson/Downloads/cii_HostedGBR_Playtex_live (1).html",
+		"/Users/thathenderson/Downloads/cii_HostedGBR_Playtex (1).html",
+		"/Users/thathenderson/Desktop/DetermineRGID.txt",
+		"/Users/thathenderson/Desktop/Hills_BL.html",
+		"/Users/thathenderson/svn/oemsites/Setup_Files/PL_modernRollup/0.xml",
+		"/Users/thathenderson/svn/oemsites/Setup_Files/PL_modernRollup/modern-pl.css",
+		"/Users/thathenderson/svn/oemsites/Setup_Files/PL_modernRollup/footer.html",
+		"/Users/thathenderson/Documents/thathenderson.com/resume/css/normalize.css"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Volumes/operations/oemsites/19483251",
+			"/Users/thathenderson/svn/oemsites/19483251",
+			"/Users/thathenderson/svn/oemsites/8685595",
+			"/Users/thathenderson/svn/ops/oemsites/,*.xslt",
+			"/Users/thathenderson/svn/ops/oemsites/19483251,*.xslt",
+			"/Users/thathenderson/svn/ops/oemsites/19483251",
+			"/Users/thathenderson/svn/ops/oemsites/19483251,PP.xslt",
+			"/Users/thathenderson/svn/ops/oemsites/19483251,pp.xslt",
+			"/Users/thathenderson/svn/Facebook/Manufacturer/production"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"function($scope)",
+			"}",
+			";",
+			"{",
+			"}",
+			";",
+			" {",
+			"}",
+			";",
+			"{",
+			"0",
+			"</li>",
+			"<li class=\"nav-option\">",
+			"Accomplishments",
+			"ExperienceController",
+			"ResumeData.getResumeData(function(data) {\n		$scope.jobs = data.jobs;\n	});",
+			"textMe",
+			"document).ready",
+			"loadShopLocal",
+			"addLocalEvents",
+			"processLocalData",
+			"showTRacking",
+			"textME",
+			"sendToIcon",
+			"cii_local",
+			"cii_local.localRgid",
+			"cii_local.loadShopOnlineTemplate",
+			"sendthisicons",
+			"Glucerna Advance Vanilla Shake",
+			"id",
+			"Lists",
+			"lists",
+			"  ",
+			"buyProduct",
+			"[model]",
+			"[company]",
+			"main",
+			"GetPara",
+			"\\|",
+			"GetRGIDPL = \"",
+			"\\|m\"",
+			"\\|km\"",
+			"\\n\\n",
+			"			",
+			".+\"\\)",
+			".+Case",
+			"2216",
+			"\\n\\n",
+			"1235|&#8364;",
+			"\\|\"",
+			".+\\(\"\\|",
+			"\\|\\|\"\\)",
+			"	 = \"",
+			"[a-zA-Z]",
+			"		",
+			"\\w\\|\\w\\\"",
+			"Case UCASE(\"CONSUMER|",
+			"lsPurchaseJSFunctionName",
+			"buy button",
+			"overlay",
+			"ReplaceString",
+			"lsName",
+			"CZ",
+			"|AR",
+			"AR",
+			"[UI ID]",
+			"CZ",
+			"2903",
+			"2617",
+			"consumer|ar",
+			"sCurrency",
+			"ci_CC",
+			"[OEM PATH]",
+			"gme-channelintelligence",
+			"client=",
+			"gsCssSkinMobile",
+			"cii-col-distance",
+			"CodeType",
+			"gsCssSkinMobile",
+			"gscss",
+			"[OEM PATH]",
+			"cii-btn",
+			"[OEM PATH]",
+			"cii-btn",
+			"cii-button",
+			".css",
+			"mobile-local",
+			"mobile",
+			"[OEM PATH]",
+			"sSiteType",
+			"nRuleGroupID",
+			"RGID",
+			"../fonts/",
+			"sDSNPlato",
+			"adding item",
+			"updateimpl",
+			"covered_item",
+			"fact_prod",
+			"mbGetFactInfo",
+			"mbGetItemFactValue",
+			"TXT_MAN",
+			"TXT_MANU",
+			"mbUpdateFact",
+			"fact_prod",
+			"MVM",
+			"gaProduction",
+			"mbUpdateFact",
+			"txt_manufacturer'",
+			"covered_items",
+			"UpdateImplementationStatus",
+			"covered_items",
+			"bDebug",
+			"umbItemUpdate",
+			"TXT_Manufacturer\"",
+			"cii_hdr",
+			"page_type",
+			"include",
+			"page_title",
+			"page_Title",
+			"include",
+			"page_type",
+			"loadDisplay",
+			"page_type",
+			"\\$\\d+.00",
+			"$",
+			"[®]",
+			"®",
+			"</items>"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"\\t",
+			"H811SMV-NP-C",
+			"liberty",
+			",",
+			"",
+			"\\n",
+			"",
+			"\\n",
+			"",
+			"2791",
+			"315154041/2777",
+			"307255326/2549",
+			"307255326/2758",
+			"../../wtb/fonts/",
+			"\\n</items>",
+			"<items>\\n",
+			"\\n<items>\\n",
+			"', '",
+			"\\n",
+			"0004155",
+			"','",
+			"2670",
+			"10191459/1789",
+			"1957",
+			"\\twww",
+			"www",
+			"15050357",
+			"15050537/2644",
+			"271345507/2652",
+			"",
+			"\\n",
+			"\\r",
+			"349472093/2617",
+			"../",
+			"http://dewalt.links.channelintelligence.com/",
+			"rel=\"stylesheet\"",
+			"2601",
+			"2604",
+			"'"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1734,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								383,
+								383
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 83.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "sass/partials/styles.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2757,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1555,
+								1555
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1752.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "sass/partials/fonts.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1392,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1043,
+								1043
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 43.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "js/resume.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3937,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3083,
+								3083
+							]
+						],
+						"settings":
+						{
+							"auto_name": "{",
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1051.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "js/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 886,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								450,
+								450
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 85.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "partials/_skills.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 106,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								76,
+								76
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "sass/partials/media-queries.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 469,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								244,
+								244
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 22.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "js/controllers/controllers.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1064,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								636,
+								636
+							],
+							[
+								812,
+								812
+							],
+							[
+								973,
+								973
+							]
+						],
+						"settings":
+						{
+							"auto_name": "var ResumeController = angular.module('ResumeContr",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 106.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "partials/_accomplishments.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 216,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								216
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "resume.sublime-project",
+	"replace":
+	{
+		"height": 68.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/Documents/groceries/groceries.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 237.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
