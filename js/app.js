@@ -1,4 +1,4 @@
-//resume v01
+//resume v2
 (function() {
 	//App config
 	var ResumeApp = angular.module('ResumeApp', [
