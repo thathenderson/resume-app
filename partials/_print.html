@@ -1,0 +1,44 @@
+<section class="jobs">
+	<h1>Experience</h1>
+	<section class="job" ng-repeat="job in jobs">
+		<h2 class="company-name">{{job.company}}</h2>
+		<section class="position" ng-repeat="position in job.positions">
+			<h3 class="position-title bold">{{position.title}} <span class="light">({{position.employmentLength}})</span></h4>
+			<ul>
+				<li class="bullet" ng-repeat="bullet in position.bullets">{{bullet}}</li>
+			</ul>
+		</section>
+	</section>
+</section>
+
+<section class="accomplishments">
+	<h1>Accomplishments</h1>
+	<section ng-repeat="thing in accomplishments">
+		<h2 class="company-name">{{thing.position}}</h3>
+		<section>
+			<ul>
+				<li class="bullet" ng-repeat="bullet in thing.majorBullets">{{bullet}}</li>
+			</ul>
+		</section>
+	</section>
+</section>
+
+<section class="skills">
+	<h1>Skills</h1>
+	<ul>
+		<li class="bullet" ng-repeat="skill in skills">{{skill}}</li>
+	</ul>
+</section>
+
+<section class="education">
+	<h1>Education</h1>
+	<h2>College</h2>
+	<ul>
+		<li class="bullet" ng-repeat="thing in education.College">{{thing}}</li>
+	</ul>
+
+	<h2>High School</h2>
+	<ul>
+		<li class="bullet" ng-repeat="thing in education.HighSchool">{{thing}}</li>
+	</ul>
+</section>

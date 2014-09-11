@@ -1,26 +1,36 @@
 // everything over 1070px width
 @media screen and (max-width: 906px)
-	header
+	.info
 		.description
 			padding-top: 12px
 
-@media screen and (max-width: 700px)
-	header
+@media screen and (max-width: 715px)
+	.info
 		font-size: 80%
 
 		.description
 			width: 74%
 			padding-top: 34px
 
-		.nav
-			top: 12px
-
 //mobile
 @media screen and (max-width: 650px)
-	header
+	.toolbar
+		font-size: 85%
+
+		.action-button
+			padding: 6px
+
+		.nav-options
+			width: 100%
+			top: 46px
+
+	nav
+		li
+			padding: 10px
+
+	.info
 		font-size: 80%
 		height: auto
-		overflow: initial
 
 		.profile
 			display: none
@@ -30,66 +40,34 @@
 			height: auto
 			padding: 0
 
-		.nav
-			display: block
-			position: absolute
-			left: 8px
-			top: 60px
-			z-index: 10
-			width: 250px
-			margin: -300px 0 0 0
-			background-color: $color-theme-dark
-			color: $color-theme-light
-			box-shadow: 0 2px 8px rgba(0,0,0,0.6)
-			transition: margin 300ms ease
-			overflow: auto
-
-			&.show
-				margin: 0
-
-			li
-				display: block
-				height: 45px
-
-			.nav-option
-				display: block
-
-			li a:hover, .active
-				background-color: $color-theme
-
 	main
 		+main-padding(-25px)
 
-	.menu-button
-		display: inline-block
-
 @media screen and (max-width: 575px) and (orientation: landscape)
-	header
-		font-size: 40%
+	nav
+		li
+			padding: 5px
 
-		.description h1
-			float: left
-			line-height: 0.9em
+		li:hover, li.active
+			border-left-width: 6px
 
-		.description h3
-			display: none
+	.toolbar
+		font-size: 50%
 
-		.nav
-			width: 100px
-			top: 30px
+		.nav-options
+			top: 32px
 
-			li
-				height: auto
+	.info
+		padding: 0 0 5px 6px
 
-			.nav-option
-				padding: 5px 2px
-
-
-	.menu-button
-		float: left
-		padding: 0 8px 0 00
-		margin: 0
+		.description 
+			h1
+				float: left
+				line-height: 0.9em
+				font-size: 1em
+			h3
+				display: none
 
 	main
-		font-size: 40%
+		font-size: 50%
 		+main-padding(-170px)

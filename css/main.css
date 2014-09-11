@@ -51,7 +51,7 @@ body {
   font-family: "Lato", sans-serif;
   font-size: 100%;
   font-weight: 400;
-  color: #555555;
+  color: rgba(0, 0, 0, 0.87);
   padding: 0;
   margin: 0; }
 
@@ -68,91 +68,122 @@ header, main {
 
 header {
   width: 100%;
-  height: 200px;
-  opacity: 0;
   position: fixed;
-  z-index: 5;
-  overflow: hidden;
+  opacity: 1;
+  z-index: 1;
+  background-color: white;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
   background-color: #5c5c5c; }
-  header .profile, header .description {
-    height: 125px; }
-  header .profile {
-    width: 125px;
-    margin-right: 10px; }
-    header .profile img {
-      width: 100%;
-      height: 100%;
-      border: 5px #0884ed solid;
-      border-radius: 50% 50% 0 50%; }
-  header .description {
-    width: 80%;
-    padding-top: 32px;
-    color: #dddfe0; }
-    header .description h1 {
-      margin: 0;
-      font-weight: 700;
-      font-size: 2.5em;
-      color: inherit; }
-    header .description h3 {
-      margin: 0;
-      color: inherit; }
 
-.menu-button {
-  display: none;
-  padding: 8px;
-  margin-left: -8px;
+.info, main {
+  padding: 13px; }
+
+.profile, .description {
+  height: 125px; }
+
+.profile {
+  width: 125px;
+  margin-right: 10px; }
+  .profile img {
+    width: 100%;
+    height: 100%;
+    border: 5px #0884ed solid;
+    border-radius: 0 50% 50% 50%; }
+
+.description {
+  width: 80%;
+  padding-top: 32px;
+  color: #dddfe0; }
+  .description h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 2.5em;
+    color: inherit; }
+  .description h3 {
+    margin: 0;
+    color: inherit; }
+  .description .print-personal-info {
+    display: none; }
+
+.action-button {
+  display: inline-block;
+  padding: 10px;
   font-size: 2.5em;
   text-align: center;
-  color: #dddfe0;
-  border-radius: 8px;
+  color: white;
   -webkit-user-select: none;
   text-decoration: none; }
 
-.menu-button:hover {
-  cursor: pointer; }
+.action-button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #5c5c5c; }
 
-.menu-button:active {
-  background-color: #0884ed; }
+.pdf::before {
+  content: "\e600"; }
 
-.menu-button::before {
-  content: "\e605"; }
+.email::before {
+  content: "\e601"; }
 
-.info {
-  padding: 10px; }
+.linked-in::before {
+  content: "\e604"; }
 
-.nav {
-  text-align: center;
-  position: relative;
-  top: 8px;
-  background-color: #0884ed;
+.print::before {
+  content: "\e602"; }
+
+.menu::before {
+  content: "\e603"; }
+
+.active-menu-button {
+  background-color: white;
+  color: #5c5c5c; }
+
+nav {
   clear: both; }
-  .nav li {
+  nav li {
     list-style-type: none;
-    display: inline-block;
     margin: 0;
-    padding: 0; }
-  .nav li:hover, .nav .active {
-    background-color: #5c5c5c; }
+    padding: 5px 10px;
+    box-shadow: 0 1px 0px 0px rgba(0, 0, 0, 0.1);
+    transition: border 0.2s cubic-bezier(0.47, 0, 0.745, 0.715);
+    -webkit-transition: border 0.2s cubic-bezier(0.47, 0, 0.745, 0.715); }
+  nav li:hover, nav li.active {
+    border-left: 8px #0884ed solid; }
+    nav li:hover .nav-option, nav li.active .nav-option {
+      color: black; }
 
 .nav-options {
-  margin: 0px;
-  padding: 0px;
+  display: none;
+  z-index: 2;
+  width: 45%;
+  position: absolute;
+  top: 60px;
+  left: 0px;
+  background-color: white;
+  box-shadow: 0px 3px 10px 3px rgba(0, 0, 0, 0.2);
+  margin: 0;
+  padding: 0;
   vertical-align: middle;
   list-style-type: none;
   -webkit-margin-before: 0;
   -webkit-margin-after: 0; }
 
 .nav-option {
-  display: inline-block;
-  padding: 10px;
-  color: #ecf2f6;
-  font-weight: bold;
+  display: block;
+  width: 100%;
+  font-weight: 400;
   font-size: 1.5em;
-  text-decoration: none; }
+  text-decoration: none;
+  color: #888888; }
+
+li:last-child .nav-option {
+  box-shadow: none; }
+
+.show-menu {
+  display: block; }
 
 main {
-  padding-top: 210px;
+  padding-top: 220px;
   padding-bottom: 0;
   padding-left: 10px;
   padding-right: 10px; }
@@ -169,6 +200,18 @@ main {
 .skills li {
   list-style-type: none; }
 
+footer {
+  padding-top: 15px;
+  text-align: center; }
+  footer p {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 75%;
+    font-style: italic;
+    color: #b0b0b0; }
+
 ul {
   font-size: inherit; }
 
@@ -180,19 +223,20 @@ h1 {
 h2 {
   margin: 0;
   font-size: 1.5em;
-  color: #333333; }
+  color: rgba(0, 0, 0, 0.87); }
 
 h3 {
   font-weight: 400;
   font-size: 1.2em;
-  margin: 0 0 5px 0; }
+  margin: 0 0 5px 0;
+  color: rgba(0, 0, 0, 0.54); }
 
 h4 {
   margin: 0;
   font-size: 1.2em;
   font-weight: 400;
   font-size: 1.2em;
-  color: #999999; }
+  color: rgba(0, 0, 0, 0.54); }
 
 .left {
   float: left; }
@@ -214,82 +258,93 @@ h4 {
     clear: both; }
 
 @media screen and (max-width: 906px) {
-  header .description {
+  .info .description {
     padding-top: 12px; } }
-@media screen and (max-width: 700px) {
-  header {
+@media screen and (max-width: 715px) {
+  .info {
     font-size: 80%; }
-    header .description {
+    .info .description {
       width: 74%;
-      padding-top: 34px; }
-    header .nav {
-      top: 12px; } }
+      padding-top: 34px; } }
 @media screen and (max-width: 650px) {
-  header {
+  .toolbar {
+    font-size: 85%; }
+    .toolbar .action-button {
+      padding: 6px; }
+    .toolbar .nav-options {
+      width: 100%;
+      top: 46px; }
+
+  nav li {
+    padding: 10px; }
+
+  .info {
     font-size: 80%;
-    height: auto;
-    overflow: initial; }
-    header .profile {
+    height: auto; }
+    .info .profile {
       display: none; }
-    header .description {
+    .info .description {
       width: 100%;
       height: auto;
       padding: 0; }
-    header .nav {
-      display: block;
-      position: absolute;
-      left: 8px;
-      top: 60px;
-      z-index: 10;
-      width: 250px;
-      margin: -300px 0 0 0;
-      background-color: #5c5c5c;
-      color: #45aaff;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
-      transition: margin 300ms ease;
-      overflow: auto; }
-      header .nav.show {
-        margin: 0; }
-      header .nav li {
-        display: block;
-        height: 45px; }
-      header .nav .nav-option {
-        display: block; }
-      header .nav li a:hover, header .nav .active {
-        background-color: #0884ed; }
 
   main {
-    padding-top: 185px;
-    padding-bottom: 0;
-    padding-left: 10px;
-    padding-right: 10px; }
-
-  .menu-button {
-    display: inline-block; } }
-@media screen and (max-width: 575px) and (orientation: landscape) {
-  header {
-    font-size: 40%; }
-    header .description h1 {
-      float: left;
-      line-height: 0.9em; }
-    header .description h3 {
-      display: none; }
-    header .nav {
-      width: 100px;
-      top: 30px; }
-      header .nav li {
-        height: auto; }
-      header .nav .nav-option {
-        padding: 5px 2px; }
-
-  .menu-button {
-    float: left;
-    padding: 0 8px 0 0;
-    margin: 0; }
-
-  main {
-    font-size: 40%;
-    padding-top: 40px;
+    padding-top: 195px;
     padding-bottom: 0;
     padding-left: 10px;
     padding-right: 10px; } }
+@media screen and (max-width: 575px) and (orientation: landscape) {
+  nav li {
+    padding: 5px; }
+  nav li:hover, nav li.active {
+    border-left-width: 6px; }
+
+  .toolbar {
+    font-size: 50%; }
+    .toolbar .nav-options {
+      top: 32px; }
+
+  .info {
+    padding: 0 0 5px 6px; }
+    .info .description h1 {
+      float: left;
+      line-height: 0.9em;
+      font-size: 1em; }
+    .info .description h3 {
+      display: none; }
+
+  main {
+    font-size: 50%;
+    padding-top: 50px;
+    padding-bottom: 0;
+    padding-left: 10px;
+    padding-right: 10px; } }
+@media print {
+  main section {
+    margin-bottom: 25px; }
+
+  header {
+    background-color: rgba(200, 200, 200, 0.2);
+    box-shadow: none;
+    position: relative; }
+    header .description {
+      color: rgba(0, 0, 0, 0.87);
+      height: auto;
+      padding: 0; }
+      header .description .print-personal-info {
+        display: block;
+        margin-top: 15px; }
+    header .toolbar {
+      display: none; }
+    header .profile {
+      display: none; }
+    header .info {
+      border-bottom: 1px rgba(0, 0, 0, 0.2) solid; }
+
+  main {
+    padding: 10px; }
+    main .skills li {
+      list-style-type: disc; }
+
+  footer {
+    display: none; } }

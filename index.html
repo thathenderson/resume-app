@@ -13,17 +13,18 @@
 </head>
 <body>
 	<header ng-controller="MeController">
-		<section class="info cf">
-		<div class="profile left">
-			<img ng-src="{{me.profile}}" />
-		</div>
-		<div class="description left">
-			<div class="icomoon menu-button" ng-click="showMenu()"></div>
-			<h1>{{me.fullname}}</h1>
-			<h3>{{me.description}}</h3>
-		</div>
-		</section>
-		<section class="nav">
+		<section class="toolbar">
+			<div class="actions cf">
+				<div class="left">
+					<div class="icomoon action-button menu" ng-click="showMenu()"></div>
+				</div>
+				<div class="right">
+					<a href="https://www.linkedin.com/pub/michael-henderson/63/741/278" target="_blank" alt="LinkedIn" title="LinkedIn" class="icomoon action-button linked-in"></a>
+					<a href="mailto:anyone?subject=Michael%20Henderson%20-%20Resume&body=%0A%0Ahttp://thathenderson.com/resume/" alt="Email me" title="Email me" class="icomoon action-button email"></a>
+					<a href="http://thathenderson.com/resume/Michael_Henderson_Resume.pdf" target="_blank" alt="Resume PDF" title="Resume PDF" class="icomoon action-button pdf"></a>
+					<a href="#/print" ng-click="printMe()" alt="Print" title="Print" class="icomoon action-button print"></a>
+				</div>
+			</div>
 			<nav>
 				<ul class="nav-options">
 					<li ng-class="{active: isActive('/experience')}"><a class="nav-option" href="#/experience">Experience</a>
@@ -33,7 +34,24 @@
 				</ul>
 			</nav>
 		</section>
+		<section class="info cf">
+			<div class="profile left">
+				<img ng-src="{{me.profile}}" />
+			</div>
+			<div class="description left">
+				<h1>{{me.fullname}}</h1>
+				<h3>{{me.description}}</h3>
+				<div class="print-personal-info">
+					<h3 class="light">{{me.phone}}</h3>
+					<h3 class="light">{{me.email}}</h3>
+					<h3 class="light">{{me.twitter}}</h3>
+				</div>
+			</div>
+		</section>
 	</header>
 	<main ng-view></main>
+	<footer>
+		<p>Hand-crafted with SASS and Angular</p>
+	</footer>
 </body>
 </html>

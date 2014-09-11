@@ -20,80 +20,11 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": "/Users/thathenderson/svn/oemsites/165833443/2033/dblsettings.xml",
 			"settings":
 			{
-				"buffer_size": 1734,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "@-webkit-keyframes fadein\n	from\n		opacity: 0\n	to\n		opacity: 1\n\n@keyframes fadein\n	from\n		opacity: 0\n	to\n		opacity: 1\n\n*, *::before, *::after\n	box-sizing: border-box\n	-webkit-box-sizing: border-box\n	-moz-box-sizing: border-box\n\nbody\n	font-family: 'Lato', sans-serif\n	font-size: 100%\n	font-weight: 400\n	color: $color-standard-text\n	padding: 0\n	margin: 0\n\nheader, main, nav, section, div\n	display: block\n	padding: 0\n	margin: 0\n\nheader, main\n	-webkit-animation: fadein 800ms\n	-webkit-animation-fill-mode: forwards\n	animation: fadein 800ms\n	animation-fill-mode: forwards\n\nheader\n	width: 100%\n	height: $header-height\n	opacity: 0\n	position: fixed\n	z-index: 5\n	overflow: hidden\n	box-shadow: 0 1px 5px rgba(0,0,0,0.5)\n\n	background-color: $color-theme-dark\n	//border-bottom: 3px $color-theme-dark solid\n\n	.profile, .description\n		height: 125px\n\n	.profile\n		width: 125px\n		margin-right: 10px\n\n		img\n			width: 100%\n			height: 100%\n			border: 5px $color-theme solid\n			border-radius: 50% 50% 0 50%\n\n	.description\n		width: 80%\n		padding-top: 32px\n		color: $color-theme-text\n\n		h1\n			margin: 0\n			font-weight: 700\n			font-size: 2.5em\n			color: inherit\n		h3\n			margin: 0\n			color: inherit\n\n.menu-button\n	display: inline-block\n	padding: 5px\n	margin-left: -5px\n	font-size: 2.5em\n	text-align: center\n	color: $color-theme-text\n	border-radius: 8px\n\n.menu-button:hover\n	cursor: pointer\n\n.menu-button:active\n	background-color: $color-theme-light\n\n.menu-button::before\n	content: \"\\e601\"\n\n.menu\n	position: absolute\n	left: 0\n	top: 0\n	width: 80px\n	height: 100%\n	margin-left: -80px\n	\n\n	li\n		display: block\n		list-style-type: none\n		margin: 0\n		padding: 5px 10px\n\n.info\n	padding: 10px\n\n.nav\n	clear: both\n\nnav\n	text-align: center\n	position: relative\n	top: 8px\n	background-color: $color-theme\n\n	li\n		list-style-type: none\n		display: inline-block\n		margin: 0px\n		padding: 10px\n\n	li:hover, .active\n		background-color: $color-theme-dark\n\n	.nav-options\n		margin: 0px\n		padding: 0px\n		vertical-align: middle\n		list-style-type: none\n		-webkit-margin-before: 0\n		-webkit-margin-after: 0\n\n		.nav-option\n			color: $color-nav-text\n			font-weight: bold\n			font-size: 1.5em\n			text-decoration: none\nmain\n	+main-padding\n\n	.company-name\n		margin: 0\n\n	.position-title\n		margin: 5px 0\n\n	.bullet\n		font-size: 0.9em\n\n.job\n	margin-bottom: 20px\n	\nh1\n	margin-top: 0\n	margin-bottom: 5px\n	font-size: 2em\nh2\n	margin: 0\n	font-size: 1.5em\n	color: $color-standard-text-dark\nh3\n	font-weight: 400\n	font-size: 1.2em\n	margin: 0 0 5px 0\nh4\n	margin: 0\n	font-size: 1.2em\n	font-weight: 400\n	font-size: 1.2em\n	color: $color-standard-text-light\n\n.left\n	float: left\n\n.right\n	float: right\n\n.light\n	font-weight: 300\n\n.cf\n	zoom: 1\n\n	&:before\n		content: \" \"\n		display: table\n\n	&:after\n		content: \" \"\n		display: table\n		clear: both",
-			"file": "sass/partials/styles.sass",
-			"file_size": 2755,
-			"file_write_time": 130509937660000000,
-			"settings":
-			{
-				"buffer_size": 2757,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "sass/partials/fonts.sass",
-			"settings":
-			{
-				"buffer_size": 1392,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "js/resume.json",
-			"settings":
-			{
-				"buffer_size": 3937,
-				"line_ending": "Unix",
-				"name": "{"
-			}
-		},
-		{
-			"file": "js/app.js",
-			"settings":
-			{
-				"buffer_size": 886,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "partials/_skills.html",
-			"settings":
-			{
-				"buffer_size": 106,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "sass/partials/media-queries.sass",
-			"settings":
-			{
-				"buffer_size": 469,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "js/controllers/controllers.js",
-			"settings":
-			{
-				"buffer_size": 1064,
-				"line_ending": "Unix",
-				"name": "var ResumeController = angular.module('ResumeContr"
-			}
-		},
-		{
-			"file": "partials/_accomplishments.html",
-			"settings":
-			{
-				"buffer_size": 216,
-				"line_ending": "Unix"
+				"buffer_size": 997,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -137,16 +68,35 @@
 	},
 	"file_history":
 	[
-		"/Users/thathenderson/Downloads/icomoon/style.css",
-		"/Users/thathenderson/Downloads/icomoon (1)/style.css",
+		"/Users/thathenderson/svn/oemsites/165833443/2033/settings.xml",
+		"/Users/thathenderson/svn/oemsites/165833443/2033/dlcsettings.xml",
+		"/Volumes/CIAN/Development-Branch/CIANEdge/Web/CiAN.Canvas/Pages/Redirector.asp",
+		"/Users/thathenderson/svn/oemsites/165833443/settings.xml",
+		"/Volumes/CIAN/Development-Branch/CIANEdge/Web/CiAN.Canvas/IncludesPE/TransferHandler.asp",
+		"/Volumes/CIAN/Development-Branch/Tools/Web/CIAN.Legacy.OpsTools/ManufacturerSupport/Includes/ManufacturerFunctions.asp",
+		"/Volumes/CIAN/Development-Branch/Tools/Web/CIAN.Legacy.OpsTools/ManufacturerSupport/ManageRedirectorEditLink.asp",
+		"/Users/thathenderson/Documents/resume/partials/_accomplishments.html",
+		"/Users/thathenderson/Documents/resume/partials/_skills.html",
+		"/Users/thathenderson/Documents/resume/js/controllers/controllers.js",
+		"/Users/thathenderson/Documents/resume/js/app.js",
+		"/Users/thathenderson/Documents/resume/js/resume.json",
+		"/Users/thathenderson/Documents/resume/sass/partials/media-queries.sass",
 		"/Users/thathenderson/Documents/resume/sass/partials/fonts.sass",
 		"/Users/thathenderson/Documents/resume/sass/partials/styles.sass",
+		"/Users/thathenderson/Documents/resume/index.html",
+		"/Users/thathenderson/Documents/resume/css/main.css",
+		"/Users/thathenderson/Downloads/h5bp-html5-boilerplate-defe483/css/normalize.css",
+		"/Users/thathenderson/Downloads/h5bp-html5-boilerplate-defe483/js/main.js",
+		"/Users/thathenderson/Downloads/h5bp-html5-boilerplate-defe483/js/plugins.js",
+		"/Users/thathenderson/Downloads/h5bp-html5-boilerplate-defe483/css/main.css",
+		"/Users/thathenderson/Downloads/h5bp-html5-boilerplate-defe483/index.html",
+		"/Users/thathenderson/Downloads/jquery-2.1.1.min.js",
+		"/Users/thathenderson/Downloads/icomoon/style.css",
+		"/Users/thathenderson/Downloads/icomoon (1)/style.css",
 		"/Users/thathenderson/Documents/resume/sass/partials/colors.sass",
-		"/Users/thathenderson/Documents/resume/sass/partials/media-queries.sass",
 		"/Users/thathenderson/Documents/resume/sass/partials/layouts.sass",
 		"/Users/thathenderson/Documents/resume/partials/_jobs.html",
 		"/Users/thathenderson/Documents/resume/sass/main.sass",
-		"/Users/thathenderson/Documents/resume/partials/_accomplishments.html",
 		"/Users/thathenderson/Documents/resume/partials/_technologies.html",
 		"/Users/thathenderson/Documents/resume/partials/_education.html",
 		"/Volumes/iFrameUI/index_ca_en.asp",
@@ -169,7 +119,6 @@
 		"/Users/thathenderson/svn/oemsites/wtb/css/mobile-pl.css",
 		"/Users/thathenderson/Downloads/SP_841291.tsv.txt",
 		"/Users/thathenderson/svn/oemsites/Setup_Files/PL/modern-pl.css",
-		"/Users/thathenderson/Documents/resume/css/main.css",
 		"/Users/thathenderson/Documents/groceries/css/main.css",
 		"/Users/thathenderson/Documents/groceries/sass/partials/_styles.sass",
 		"/Users/thathenderson/Documents/groceries/sass/partials/_resets.sass",
@@ -185,7 +134,6 @@
 		"/Users/thathenderson/Downloads/Ex_Files_UaR_AngularJS/Exercise Files/02_04/finished/angular/js/controllers.js",
 		"/Users/thathenderson/Documents/resume/angular.min.js",
 		"/Users/thathenderson/Downloads/angular.min.js",
-		"/Users/thathenderson/Documents/resume/index.html",
 		"/Users/thathenderson/Documents/resume/resume.sublime-project",
 		"/Users/thathenderson/svn/oemsites/6688506/2799/XMLSettings.xml",
 		"/Users/thathenderson/Documents/groceries/sass/partials/_fonts.sass",
@@ -247,24 +195,7 @@
 		"/Users/thathenderson/Documents/thathenderson.com/resume/index.html",
 		"/Users/thathenderson/Documents/thathenderson.com/resume/css/main.css",
 		"/Users/thathenderson/Downloads/Bebitus_-_ES_IB_Main_20140425123644979_20140425123645228",
-		"/Users/thathenderson/Downloads/Bebitus_-_ES_IB_Sup_20140425124333956_20140425124334034",
-		"/Users/thathenderson/Downloads/Bebitus_-_ES_232588563-inbound-Bebitus_-_ES_IB_Sup_20140424124938310_20140424124938388",
-		"/Users/thathenderson/svn/oemsites/Setup_Files/snippets.htm",
-		"/Users/thathenderson/svn/oemsites/19483251/ws/GetImage.asp",
-		"/Users/thathenderson/svn/oemsites/sl_map.asp",
-		"/Users/thathenderson/Documents/thathenderson.com/css/fonts.css",
-		"/Users/thathenderson/Documents/thathenderson.com/resume/css/fonts.css",
-		"/Users/thathenderson/Documents/thathenderson.com/css/main.css",
-		"/Users/thathenderson/Documents/thathenderson.com/thathenderson.sublime-project",
-		"/Users/thathenderson/Desktop/vbscripttester.html",
-		"/Users/thathenderson/Downloads/cii_HostedGBR_Playtex_live (1).html",
-		"/Users/thathenderson/Downloads/cii_HostedGBR_Playtex (1).html",
-		"/Users/thathenderson/Desktop/DetermineRGID.txt",
-		"/Users/thathenderson/Desktop/Hills_BL.html",
-		"/Users/thathenderson/svn/oemsites/Setup_Files/PL_modernRollup/0.xml",
-		"/Users/thathenderson/svn/oemsites/Setup_Files/PL_modernRollup/modern-pl.css",
-		"/Users/thathenderson/svn/oemsites/Setup_Files/PL_modernRollup/footer.html",
-		"/Users/thathenderson/Documents/thathenderson.com/resume/css/normalize.css"
+		"/Users/thathenderson/Downloads/Bebitus_-_ES_IB_Sup_20140425124333956_20140425124334034"
 	],
 	"find":
 	{
@@ -291,6 +222,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"trimchar",
 			"function($scope)",
 			"}",
 			";",
@@ -417,8 +349,7 @@
 			"\\$\\d+.00",
 			"$",
 			"[®]",
-			"®",
-			"</items>"
+			"®"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -476,276 +407,36 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "/Users/thathenderson/svn/oemsites/165833443/2033/dblsettings.xml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1734,
+						"buffer_size": 997,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								383,
-								383
+								894,
+								894
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"syntax": "Packages/XML/XML.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 83.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "sass/partials/styles.sass",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2757,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1555,
-								1555
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1752.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "sass/partials/fonts.sass",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1392,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1043,
-								1043
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 43.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "js/resume.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3937,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3083,
-								3083
-							]
-						],
-						"settings":
-						{
-							"auto_name": "{",
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1051.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "js/app.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 886,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								450,
-								450
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 85.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "partials/_skills.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 106,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								76,
-								76
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "sass/partials/media-queries.sass",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 469,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								244,
-								244
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 22.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "js/controllers/controllers.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1064,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								636,
-								636
-							],
-							[
-								812,
-								812
-							],
-							[
-								973,
-								973
-							]
-						],
-						"settings":
-						{
-							"auto_name": "var ResumeController = angular.module('ResumeContr",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 106.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "partials/_accomplishments.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 216,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								216
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
 					"type": "text"
 				}
 			]

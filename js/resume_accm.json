@@ -1,0 +1,26 @@
+{
+	"accomplishments": [
+		{
+			"position": "Lead Implementations Tech",
+			"majorBullets": [
+				"Introduced responsive and adpative design to CI, which became a major selling point for the sales force. For the Where-to-Buy product line, switched from an image and 90s-esque table-based layout to hand-crafted, adaptive, css-based layouts for all 6 individual Where-to-Buy services. Core css was consolidated, and unnecessary markup and external HTTP requests were removed, ultimately improving render time for all services by 66%.",
+				"Standardized, consolidated, and streamlined all of the code in the Where-to-Buy client documentation for three bi-annual release cycles, and evangelized the need and importance for accurate and simple documentation.",
+				"Indepently recoded and standardized several APIs that once relied on the Custom Engineering group, which gave a potential client more options when signing up for Where-to-Buy.",
+				"Reorganized and improved the xml document tree used for the Where-to-Buy XML API to allow it to conform to W3C XML Spec.",
+				"Helped lead and coordinate a project to onboard a vendor team overseas, including designing training resources, documentation, and workflow designs.",
+				"Received a Gold Award bonus at a company-wide quarterly review from Google Integration team immediately after the acquisition for my work in Where-to-Buy.",
+				"Promoted in July of 2012 with a Manager Score of 4.0 out of 4.0"
+			],
+			"minorBullets": []
+		},
+		{
+			"position": "Client Support Specialist",
+			"majorBullets": [
+				"Rewrote and improved a PHP/javascript code-generation tool used on a daily basis. The rewrite reduced the number of steps to generating code by 40%.",
+				"Improved QA processes for an entire product line, which helped catch 50% more issues per implementation before go-live.",
+				"Promoted in March of 2010 with a Manager Score of 3.8 out of 4.0"
+			],
+			"minorBullets": []
+		}
+	]
+}

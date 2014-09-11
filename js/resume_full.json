@@ -3,6 +3,8 @@
 		"fullname": "Michael Henderson",
 		"description": "Front-end web developer with full-stack experience and a focus on critical thinking, problem solving, and practicality. Based in Orlando, FL. Let's get stuff done together!",
 		"email": "michael@thathenderson.com",
+		"phone": "(941) 744-6678",
+		"twitter": "@thathenderson",
 		"profile": "images/Profile.jpg"
 	},
 	"jobs": [
@@ -63,13 +65,23 @@
 		{
 			"position": "Lead Implementations Tech",
 			"majorBullets": [
-				"Hand-crafted a front-end template for every Where-to-Buy service. These template vastly improved on the default front-end by consolidating core css, removing unnecessary markup and external scripts, and reducing render time by 66%. The templates are responsive and built off of modern CSS design principles. This was the first time responsive design was introduced to any product line and is now a major selling point during pitches to new clients."
+				"Introduced responsive and adpative design to CI, which became a major selling point for the sales force. For the Where-to-Buy product line, switched from an image and 90s-esque table-based layout to hand-crafted, adaptive, css-based layouts for all 6 individual Where-to-Buy services. Core css was consolidated, and unnecessary markup and external HTTP requests were removed, ultimately improving render time for all services by 66%.",
+				"Standardized, consolidated, and streamlined all of the code in the Where-to-Buy client documentation for three bi-annual release cycles, and evangelized the need and importance for accurate and simple documentation.",
+				"Indepently recoded and standardized several APIs that once relied on the Custom Engineering group, which gave a potential client more options when signing up for Where-to-Buy.",
+				"Reorganized and improved the xml document tree used for the Where-to-Buy XML API to allow it to conform to W3C XML Spec.",
+				"Helped lead and coordinate a project to onboard a vendor team overseas, including designing training resources, documentation, and workflow designs.",
+				"Received a Gold Award bonus at a company-wide quarterly review from Google Integration team immediately after the acquisition for my work in Where-to-Buy.",
+				"Promoted in July of 2012 with a Manager Score of 4.0 out of 4.0"
 			],
 			"minorBullets": []
 		},
 		{
-			"position": "Support Specialist",
-			"majorBullets": [],
+			"position": "Client Support Specialist",
+			"majorBullets": [
+				"Rewrote and improved a PHP/javascript code-generation tool used on a daily basis. The rewrite reduced the number of steps to generating code by 40%.",
+				"Improved QA processes for an entire product line, which helped catch 50% more issues per implementation before go-live.",
+				"Promoted in March of 2010 with a Manager Score of 3.8 out of 4.0"
+			],
 			"minorBullets": []
 		}
 	],
@@ -80,6 +92,13 @@
 		"Familiarity with Closure, Dart, Classic ASP/SQL",
 		"Version control experience in Subversion and Git"
 	],
-	"education": [
-	]
+	"education": {
+		"College": [
+			"Valencia Community College; Orlando, FL - Completed one year of an A.S. degree in Computer Science; 3.68 GPA",
+			"Manatee Community College; Bradenton, FL - Completed one-year of an A.S. degree in Computer Science; 3.62 GPA"
+		],
+		"HighSchool": [
+			"Graduated with a 3.8 GPA"
+		]
+	}
 }
